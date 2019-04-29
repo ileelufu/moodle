@@ -21,9 +21,10 @@ $CFG->dboptions = array (
 $CFG->wwwroot   = 
 'http://labvirtual.ileel.ufu.br/moodle';
 $CFG->dataroot  = '/home/ileel/moodledata';
+$CFG->directorypermissions = 02750;
 $CFG->admin     = 'admin';
 
-$CFG->directorypermissions = 0755;
+$CFG->directorypermissions = 0750;
 
 //=========================================================================
 // 7. SETTINGS FOR DEVELOPMENT SERVERS - not intended for production use!!!
