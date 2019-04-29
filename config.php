@@ -7,9 +7,9 @@ $CFG = new stdClass();
 $CFG->dbtype    = 'mariadb';
 $CFG->dblibrary = 'native';
 $CFG->dbhost    = 'localhost';
-$CFG->dbname    = 'moodledata';
-$CFG->dbuser    = 'root';
-$CFG->dbpass    = 'espectograma';
+$CFG->dbname    = 'moodle';
+$CFG->dbuser    = 'moodle';
+$CFG->dbpass    = 'XYW7ckBKPYZejJbNRTmKHqAP';
 $CFG->prefix    = 'mdl_';
 $CFG->dboptions = array (
   'dbpersist' => 0,
@@ -19,7 +19,7 @@ $CFG->dboptions = array (
 );
 
 $CFG->wwwroot   = 
-'https://labvirtual.ileel.ufu.br/labvirtual/moodle-latest/moodle';
+'http://labvirtual.ileel.ufu.br/moodle';
 $CFG->dataroot  = '/home/marcos/moodledata';
 $CFG->admin     = 'admin';
 
